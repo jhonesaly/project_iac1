@@ -1,10 +1,10 @@
 #!/bin/bash
 
+## 0 - Saudação
 printf "\nIniciando protocolo new_iac...\n"
 printf "\nEm caso de dúvida, consulte a documentação disponível em <https://github.com/jhonesaly/project_iac1>\n"
 
-# ---
-# Chama o script que exclui antigos diretórios, arquivos, grupos e usuários anteriores
+## 1 - Chama o script que exclui antigos diretórios, arquivos, grupos e usuários anteriores
 
 while true; do
 
@@ -25,8 +25,7 @@ while true; do
 
 done
 
-# ---
-# Chama o script que criar novos diretórios, grupos e usuários
+## 2 - Chama o script que criar novos diretórios, grupos e usuários
 
 while true; do
 
@@ -47,5 +46,5 @@ while true; do
 
 done
 
-# ---
+## 3 - Fim
 printf "\nFinalizado.\n"

@@ -27,9 +27,32 @@ Finalmente, em 3, o código exibe uma mensagem de conclusão na tela.
 
 ## Explicando Script exclude_past_gud.sh
 
+Em 0, o script exclui todos os usuários que não sejam "root". Isso é feito em um loop for que percorre todos os diretórios em /home. Se o usuário não for "root", o comando userdel é executado com a opção "-rf" para excluir o usuário e todos os seus arquivos.
+
+Em 1, o script exclui todos os grupos com um ID entre 1000 e 1100 (supõe-se que não foram criados mais que 100 grupos anteriormente). Isso é feito usando o comando cut para extrair o nome de cada grupo do arquivo /etc/group e, em seguida, obtendo o ID do grupo usando o comando getent. Se o ID do grupo estiver dentro do intervalo especificado, o comando groupdel é usado para excluí-lo. O grupo "sync" é ignorado.
+
+Em 2.1, o script procura um diretório que contenha o texto "_directories" em seu nome. 
+
+Em 2.2, verifica se algum foi encontrado
+
+Em 2.3, caso tenha encontrado, o exclui usando o comando "rm -rf". 
+
+Em 2.4, exclui todos os diretórios do usuário em /home.
+
+Em 3, O script adiciona um novo usuário administrador, que é solicitado pelo usuário usando o comando read. O comando adduser é usado para adicionar o usuário e o comando usermod é usado para adicioná-lo ao grupo "sudo"
 
 
 ## Explicando Script create_new_gud.sh
+
+Em 0, o script começa imprimindo uma mensagem na tela de saudação e solicitando ao usuário que digite o nome da empresa dona do sistema.
+
+Em 1, ele cria um diretório com o nome da empresa digitado pelo usuário.
+
+Em 2, ele cria o diretório público dentro do diretório da empresa, define o proprietário para root, e define permissão 777 para o diretório público.
+
+Em 3, ele solicita que o usuário digite os nomes das equipes separados por espaço, e em seguida, cria diretórios para cada equipe, cria um grupo com nome prefixado por GRP_ para cada equipe, altera o proprietário para root e o grupo correspondente e define permissão 770 para cada diretório criado.
+
+Em 4, para cada equipe, ele solicita que o usuário digite os nomes dos colaboradores separados por espaço, e em seguida, cria um usuário para cada colaborador, colocando-os no grupo correspondente, e definindo uma senha criptografada para cada um.
 
 ------
 # Output do script:
