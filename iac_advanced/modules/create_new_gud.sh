@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ## 0 - Saudação
-printf "\nComeçando criação da nova infraestrutura...\n"
+printf "\nComeçando a criação da nova infraestrutura...\n"
 read -p "Digite o nome da empresa dona do sistema: " company
 
 ## 1 - Cria o diretório da empresa

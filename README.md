@@ -116,13 +116,13 @@ Para utilizar os scripts na sua própria máquina, você pode fazer o seguinte:
     > mkdir downloads
     > cd downloads
 
-2 - Faça o download dos arquivos necessários no GitHub:
-
-    > wget https://github.com/jhonesaly/project_iac1/archive/refs/heads/master.zip
-
-3 - Caso sua máquina não tenha o apt unzip, o instale por meio de:
+2 - Caso sua máquina não tenha o apt unzip, o instale por meio de:
 
     > apt-get install unzip
+
+3 - Faça o download dos arquivos necessários no GitHub:
+
+    > wget https://github.com/jhonesaly/project_iac1/archive/refs/heads/master.zip
 
 4 - Descompacte o arquivo baixado.
 
@@ -134,8 +134,9 @@ Para utilizar os scripts na sua própria máquina, você pode fazer o seguinte:
 
 6 - Pronto, os scripts estão aptos a serem excutados. Escolha se quer executar o básico ou avançado, entre na pasta e execute o respectivo script. Por exemplo:
 
+    > cd project_iac1-master
     > cd iac_basic
-    > ./new_iac.sh
+    > ./new_iac_basic.sh
 
 7 - Para verificar os diretórios criados:
 
