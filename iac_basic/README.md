@@ -1,10 +1,21 @@
 # Explicando o script new_iac_basic
 
-Este é um script em shell que cria diretórios, grupos de usuários e usuários com suas respectivas permissões em um sistema Linux. O objetivo do script é automatizar a criação desses diretórios e usuários, evitando erros humanos.
+Esse script é um arquivo de script Bash que tem como objetivo automatizar a criação de diretórios, grupos de usuários e permissões em um sistema Linux.
 
-O script funciona da seguinte forma:
+Em 0, o script começa imprimindo uma mensagem na tela e informando que a documentação está disponível em um determinado local.
 
-- Cria diretórios: /publico, /adm, /ven e /sec.
-- Cria grupos de usuários: GRP_ADM, GRP_VEN e GRP_SEC.
-- Cria usuários: carlos, maria, joão, debora, sebastiana, roberto, josefina, amanda e rogerio, atribuindo-os aos grupos correspondentes e com suas respectivas senhas criptografadas.
-- Altera as permissões dos diretórios e seus donos.
+Em 1, ele cria quatro diretórios, nomeados como /publico, /adm, /ven e /sec.
+
+Em 2, ele cria três grupos de usuários: GRP_ADM, GRP_VEN e GRP_SEC.
+
+Em 3, ele cria nove usuários com senhas criptografadas, adicionando cada um em seu respectivo grupo. Os nomes dos usuários são Carlos, Maria, João, Debora, Sebastiana, Roberto, Josefina, Amanda e Rogerio.
+
+Em 4, ele especifica as permissões de acesso para cada um dos diretórios criados.
+
+Em 5, ele altera o proprietário de todos os diretórios para o usuário root
+
+Em 6, concede permissões a todos os usuários dentro do diretório publico. 
+
+Em 7, são concedidas permissões aos usuários dentro de seus respectivos diretórios.
+
+Por fim, em 8, uma mensagem de conclusão é exibida na tela.

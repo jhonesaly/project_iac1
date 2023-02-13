@@ -12,11 +12,14 @@ while true; do
     if [ $ans_b1 = "y" ]; then
         ./modules/exclude_past_gud.sh
         break
+
     elif [ $ans_b1 = "n" ]; then
         break
+
     else
         printf "\nDigite um comando válido.\n"
         continue
+        
     fi
 done
 

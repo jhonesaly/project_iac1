@@ -1,10 +1,12 @@
 #!/bin/bash
 
+## 0 - Saudações
+
 printf "\nIniciando protocolo new_iac..."
 
 printf "\nEm caso de dúvida, consulte a documentação disponível em ...\n"
 
-## Criando novos diretórios
+## 1 - Criando novos diretórios
 
 printf "\nCriando diretórios...\n"
 
@@ -13,7 +15,7 @@ mkdir /adm
 mkdir /ven
 mkdir /sec
 
-## Criando novos grupos
+## 2 - Criando novos grupos
 
 printf "\nCriando grupos de usuários...\n"
 
@@ -21,7 +23,7 @@ groupadd GRP_ADM
 groupadd GRP_VEN
 groupadd GRP_SEC
 
-## Criando novos grupos
+## 3 - Criando novos usuários
 
 printf "\nCriando usuários e os adicionando nos grupos...\n"
 
@@ -37,7 +39,7 @@ useradd josefina -c "Josefina" -m -s /bin/bash -p $(openssl passwd -6 123) -G GR
 useradd amanda -c "Amanda" -m -s /bin/bash -p $(openssl passwd -6 123) -G GRP_SEC
 useradd rogerio -c "Rogerio" -m -s /bin/bash -p $(openssl passwd -6 123) -G GRP_SEC
 
-## Alterando permissões
+## 4 - Alterando permissões
 
 printf "\nEspecificando permissões do diretórios...\n"
 
@@ -51,22 +53,23 @@ chmod 770 /ven
 chmod 770 /sec
 chmod 777 /publico
 
-# Definir dono das pastas
+## 5 - Mudar dono de todos os diretórios criados para root
 
-## Mudar dono de todos os diretórios criados para root
 sudo chown -R root:root /publico
 sudo chown -R root:root /adm
 sudo chown -R root:root /ven
 sudo chown -R root:root /sec
 
-## Conceder permissões a todos os usuários dentro do diretório publico
+## 6 - Conceder permissões a todos os usuários dentro do diretório publico
+
 sudo chmod -R 777 /publico
 
-## Conceder permissões aos usuários dentro de seus respectivos diretórios
+## 7 - Conceder permissões aos usuários dentro de seus respectivos diretórios
+
 sudo chmod -R 770 /adm
 sudo chmod -R 770 /ven
 sudo chmod -R 770 /sec
 
-# ---
+# 8 - Fim
 
 printf "\nFinalizado.\n"

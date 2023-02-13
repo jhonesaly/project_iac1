@@ -1,22 +1,27 @@
-# Infraestrutura como Código: Script de Criação de Estrutura de Usuários, Diretórios e Permissões
+# Desafio de Projeto 1 - Bootcamp de Linux
 
 # Sumário
 
-- [Objetivos do Projeto](#Objetivos-do-Projeto)
-    - [Requerimentos](##Requerimentos)
-- [Organização](#Organização)
-    - [iac_basic](##iac_basic)
-    - [iac_advanced](##iac_advanced)
-- [Definições](#Definições)
+- [Proposta do Projeto](#Proposta-do-Projeto)
+    - [Objetivos do Projeto](#Objetivos-do-Projeto)
+    - [Requerimentos do Projeto](#Requerimentos-do-Projeto)
+- [Organização do Repositório](#organização-do-repositório)
+    - [iac_basic](#iac_basic)
+    - [iac_advanced](#iac_advanced)
+- [Definições Importantes](#Definições-Importantes)
 - [Montando](#Montando)
 - [Observações](#Observações)
 
 
-# Objetivos do Projeto
+# Proposta do Projeto
+
+Infraestrutura como Código: Script de Criação de Estrutura de Usuários, Diretórios e Permissões
+
+## Objetivos do Projeto
 
 criar um script onde toda a infraestrutura de usuários, grupos de usuários, diretórios e permissões serão criadas automaticamente. Será realizado o upload do arquivo de script no GitHub para futuras reutilizações do script. Sendo assim, toda nova máquina virtual que for iniciada já estará pronta para uso quando o script for executado.
 
-## Requerimentos
+## Requerimentos do Projeto
 
 Diretórios:
 
@@ -43,17 +48,27 @@ Usuários (grupo):
 - amanda (3)
 - rogerio (3)
 
-# Organização
+
+# Organização do repositório
 
 ## iac_basic
 
 Script que seguirá estritamente aquilo que foi proposto pelo desafio, criando somente as pastas, usuários e grupos descritos nos requerimentos. 
 
+Dentro da respectiva pasta há um outro README.md que explica detalhadamente o que o script faz.
+
 ## iac_advanced
 
-Script avançado, que utiliza lógica para permitir a generalização do script básico, permitindo que seja criado quaisquer pastas, usuários e grupos direto na linha de comando de maneira muito mais simplificada. Além disso, também é implementado o algoritmo que permite a exclusão de todas as pastas, grupos e usuários anteriores, se for de interesse do administrador. Tudo isso utilizando uma estrutura modularizada que permite maior flexibilidade e mais implementações no futuro.
+Script avançado, que utiliza lógica para permitir a generalização do script básico, permitindo que seja criado quaisquer pastas, usuários e grupos direto na linha de comando de maneira muito mais simplificada. 
 
-# Definições
+Além disso, também é implementado o algoritmo que permite a exclusão de todas as pastas, grupos e usuários anteriores, se for de interesse do administrador. 
+
+Tudo isso utilizando uma estrutura modularizada que permite maior flexibilidade e mais implementações no futuro.
+
+Dentro da respectiva pasta há um outro README.md que explica detalhadamente o que o script faz.
+
+
+# Definições Importantes
 
 Infraestrutura como código (IaC) é o **gerenciamento** e provisionamento da infraestrutura por meio de **códigos**, em vez de processos manuais.
 
