@@ -6,6 +6,7 @@ Para tal, basta executar o script "new_iac_basic.sh".
 
 Esse script é um arquivo de script Bash que tem como objetivo automatizar a criação de diretórios, grupos de usuários e permissões em um sistema Linux de maneira simples conforme pedido.
 
+------
 # Explicando Script new_iac_basic
 
 Em 0, o script começa imprimindo uma mensagem na tela e informando que a documentação está disponível em um determinado local.
@@ -26,6 +27,7 @@ Em 7, são concedidas permissões aos usuários dentro de seus respectivos diret
 
 Por fim, em 8, uma mensagem de conclusão é exibida na tela.
 
+------
 # Output do script:
 
 Prompt:

@@ -12,7 +12,7 @@
 - [Montando na sua máquina](#Montando-na-sua-Máquina)
 - [Observações](#Observações)
 
-
+------
 # Proposta do Projeto
 
 Infraestrutura como Código: Script de Criação de Estrutura de Usuários, Diretórios e Permissões
@@ -48,7 +48,7 @@ Usuários (grupo):
 - amanda (3)
 - rogerio (3)
 
-
+------
 # Organização do repositório
 
 ## iac_basic
@@ -67,7 +67,7 @@ Tudo isso utilizando uma estrutura modularizada que permite maior flexibilidade 
 
 Dentro da respectiva pasta há um outro README.md que explica detalhadamente o que o script faz.
 
-
+------
 # Definições Importantes
 
 ## Linux
@@ -97,7 +97,7 @@ Dessa forma, a IaC traz uma série de benefícios, como maior eficiência, consi
 
 Com a automatização do provisionamento da infraestrutura, os desenvolvedores conseguem dedicar mais tempo para atividades de desenvolvimento e inovação, aumentando a produtividade e permitindo que a equipe foque em tarefas mais estratégicas.
 
-
+------
 # Montando na sua máquina
 
 Leia as observações (próxima seção) antes de seguir com a montagem.
@@ -150,7 +150,7 @@ Para utilizar os scripts na sua própria máquina, você pode fazer o seguinte:
 
     > cat /etc/group | column -t
 
-
+------
 # Observações
 
 - O tutorial de montagem leva em consideração que também está sendo utilizada uma máquina linux
