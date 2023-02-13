@@ -1,5 +1,9 @@
 #!/bin/bash
 
+printf "\nIniciando protocolo new_iac..."
+
+printf "\nEm caso de dúvida, consulte a documentação disponível em ...\n"
+
 # ---
 # Chama o script que exclui antigos diretórios, arquivos, grupos e usuários anteriores
 
@@ -18,6 +22,7 @@ done
 
 # ---
 # Chama o script que criar novos diretórios, grupos e usuários
+
 while true; do
     read -n 1 -p "Deseja criar novos diretórios, grupos e usuários? [y/n] " ans_b2
     if [ $ans_b2 = "y" ]; then
@@ -32,3 +37,5 @@ while true; do
 done
 
 # ---
+
+printf "\nFinalizado.\n"
