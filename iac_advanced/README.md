@@ -59,16 +59,17 @@ Em 4, para cada equipe, ele solicita que o usuário digite os nomes dos colabora
 
 Prompt:
 
-![Prompt Basic](../images/prompt_basic.png)
+![Prompt Advanced](../images/prompt_advanced.png)
 
 Pastas:
 
-![Directories Basic](../images/directories_basic.png)
+![Directories Advanced1](../images/directories_advanced1.png)
+![Directories Advanced2](../images/directories_advanced2.png)
 
 Usuários:
 
-![Users Basic](../images/users_basic.png)
+![Users Advanced](../images/users_advanced.png)
 
 Grupos:
 
-![Groups Basic](../images/groups_basic.png)
+![Groups Advanced](../images/groups_advanced.png)
