@@ -13,7 +13,7 @@ Esse script é um arquivo de script Bash que tem como objetivo automatizar a cri
 ------
 # Explicando Script new_iac_advanced
 
-Este código shell é chamado new_iac e tem como objetivo criar e excluir diretórios, grupos e usuários em um sistema.
+Este código shell é chamado new_iac e tem como objetivo excluir diretórios, grupos e usuários antigos e criar novos em um sistema.
 
 Em 0, ele imprime uma mensagem de saudação na tela.
 
@@ -26,6 +26,10 @@ Em ambos os casos, o código solicita ao usuário que confirme se deseja realiza
 Finalmente, em 3, o código exibe uma mensagem de conclusão na tela.
 
 ## Explicando Script exclude_past_gud.sh
+
+Este é um script que realiza algumas operações de limpeza e configuração do sistema.
+
+O termo "gud" vem de "grupos, usuários e diretórios".
 
 Em 0, o script exclui todos os usuários que não sejam "root". Isso é feito em um loop for que percorre todos os diretórios em /home. Se o usuário não for "root", o comando userdel é executado com a opção "-rf" para excluir o usuário e todos os seus arquivos.
 
@@ -43,6 +47,8 @@ Em 3, O script adiciona um novo usuário administrador, que é solicitado pelo u
 
 
 ## Explicando Script create_new_gud.sh
+
+Este é um script que cria a nova infraestrutura básica para uma empresa.
 
 Em 0, o script começa imprimindo uma mensagem na tela de saudação e solicitando ao usuário que digite o nome da empresa dona do sistema.
 
