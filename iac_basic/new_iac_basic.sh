@@ -2,9 +2,8 @@
 
 ## 0 - Saudações
 
-printf "\nIniciando protocolo new_iac..."
-
-printf "\nEm caso de dúvida, consulte a documentação disponível em ...\n"
+printf "\nIniciando protocolo new_iac...\n"
+printf "\nEm caso de dúvida, consulte a documentação disponível em <https://github.com/jhonesaly/project_iac1\n>"
 
 ## 1 - Criando novos diretórios
 

@@ -87,13 +87,16 @@ Além disso, o Linux é um sistema operacional altamente escalável e personaliz
 
 A infraestrutura como código (IaC, do inglês Infrastructure as Code) é uma abordagem para provisionar, gerenciar e configurar recursos de infraestrutura de TI de maneira programática, utilizando código. 
 
-A ideia é tratar a infraestrutura como se fosse software, permitindo a criação, atualização e exclusão de recursos de forma automatizada, padronizada e escalável. Com a IaC, são criados **arquivos de configuração** que incluem as especificações da sua infraestrutura, facilitando a edição e a distribuição de configurações. Ela também assegura o provisionamento do mesmo ambiente todas as vezes. 
+Com a IaC, são criados arquivos de configuração que incluem as especificações da sua infraestrutura, permitindo a criação, atualização e exclusão de recursos de forma automatizada, padronizada e escalável. 
 
-Com IaC, é possível definir toda a infraestrutura de um ambiente, desde a rede até as instâncias de servidores e suas configurações, em um único conjunto de arquivos de código-fonte, que podem ser versionados, testados e implantados. 
+Além disso, a IaC assegura o provisionamento do mesmo ambiente todas as vezes e possibilita a definição de toda a infraestrutura de um ambiente, desde a rede até as instâncias de servidores e suas configurações, em um único conjunto de arquivos de código-fonte.
 
-Ao automatizar o provisionamento da infraestrutura com a IaC, os desenvolvedores não precisam provisionar e gerenciar manualmente servidores, sistemas operacionais, armazenamento e outros componentes de infraestrutura sempre que criam ou implantam uma aplicação.
+Ao adotar a IaC, os desenvolvedores não precisam provisionar e gerenciar manualmente servidores, sistemas operacionais, armazenamento e outros componentes de infraestrutura sempre que criam ou implantam uma aplicação. 
 
-Isso traz uma série de benefícios, como maior eficiência, consistência, agilidade e segurança na gestão da infraestrutura de TI.
+Dessa forma, a IaC traz uma série de benefícios, como maior eficiência, consistência, agilidade e segurança na gestão da infraestrutura de TI. 
+
+Com a automatização do provisionamento da infraestrutura, os desenvolvedores conseguem dedicar mais tempo para atividades de desenvolvimento e inovação, aumentando a produtividade e permitindo que a equipe foque em tarefas mais estratégicas.
+
 
 # Montando na sua máquina
 
@@ -129,7 +132,10 @@ Para utilizar os scripts na sua própria máquina, você pode fazer o seguinte:
 
     > chmod -R 771 project_iac1-master
 
-Pronto, os scripts estão aptos a serem excutados. Escolha se quer executar o básico ou avançado, entre na pasta e execute o respectivo script.
+6 - Pronto, os scripts estão aptos a serem excutados. Escolha se quer executar o básico ou avançado, entre na pasta e execute o respectivo script. Por exemplo:
+
+    > cd iac_basic
+    > ./new_iac.sh
 
 
 # Observações
