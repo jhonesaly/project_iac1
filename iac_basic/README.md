@@ -28,4 +28,18 @@ Por fim, em 8, uma mensagem de conclusão é exibida na tela.
 
 # Output do script:
 
-![Output Basic](../images/output_basic.png)
+Prompt:
+
+![Prompt Basic](../images/prompt_basic.png)
+
+Pastas:
+
+![Directories Basic](../images/directories_basic.png)
+
+Usuários:
+
+![Users Basic](../images/users_basic.png)
+
+Grupos:
+
+![Groups Basic](../images/groups_basic.png)

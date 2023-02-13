@@ -137,6 +137,19 @@ Para utilizar os scripts na sua própria máquina, você pode fazer o seguinte:
     > cd iac_basic
     > ./new_iac.sh
 
+7 - Para verificar os diretórios criados:
+
+    > cd /
+    > ls -l
+
+8 - Para verificar os usuários criados:
+
+    > cut -d: -f1 /etc/passwd
+
+9 - Para verificar os grupos criados:
+
+    > cat /etc/group | column -t
+
 
 # Observações
 
