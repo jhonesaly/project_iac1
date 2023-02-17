@@ -15,6 +15,7 @@ while true; do
         break
 
     elif [ $ans_b1 = "n" ]; then
+        printf "\n...\n"
         break
 
     else
@@ -36,6 +37,7 @@ while true; do
         break
 
     elif [ $ans_b2 = "n" ]; then
+        printf "\n...\n"
         break
 
     else
