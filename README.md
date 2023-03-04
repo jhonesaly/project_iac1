@@ -74,7 +74,7 @@ O Linux é um sistema operacional de código aberto, baseado no kernel Linux, qu
 
 O Linux é conhecido pela sua estabilidade, segurança, flexibilidade e capacidade de customização, e é disponibilizado em diversas distribuições, como o Ubuntu, Debian, Fedora, CentOS, entre outras.
 
-O sistema é composto por diversas ferramentas e aplicativos de linha de comando e gráficos, permitindo a realização de diversas tarefas, como edição de textos, programação, gerenciamento de arquivos, execução de servidores e muito mais. 
+O sistema é composto por diversas ferramentas e aplicativos de linha de comando e gráficos, permitindo a realização de diversas tarefas, como edição de textos, programação, gerenciamento de arquivos, execução de servidores e muito mais.
 
 Além disso, o Linux é um sistema operacional altamente escalável e personalizável, permitindo que os usuários adaptem o sistema às suas necessidades específicas.
 
