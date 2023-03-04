@@ -10,7 +10,7 @@
 
 ## 1 - Cria o diretório da empresa
 
-mkdir /${company}_directories
+    mkdir /${company}_directories
 
 ## 2 - Cria o diretório público e modifica a permissão de acesso
 
